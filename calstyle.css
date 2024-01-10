@@ -1,0 +1,67 @@
+body{
+  background: linear-gradient(110.2deg, rgb(111, 71, 133) 3.6%, rgb(232, 129, 166) 50.3%, rgb(237, 237, 183) 97.4%);
+
+}
+.main{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  width: 500px;
+  background-color: white;
+  border-radius: 20px;
+height: 300px;
+
+}
+.d1{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 300px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.d2{
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  height: 300px;
+  border-radius: 20px;
+}
+.date{
+  font-size: 120px;
+  font-family: cursive;
+  line-height: 0px;
+  padding-top: 70px;
+}
+.day{
+  line-height: 0px;
+  font-size: 50px;
+  font-family: cursive;
+}
+.year{
+  
+  line-height: 50px;
+  font-size: 80px;
+  font-family: cursive;
+}
+.month{
+  
+  line-height: 0px;
+  font-size: 50px;
+  font-family: cursive;
+}
